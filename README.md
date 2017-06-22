@@ -6,7 +6,7 @@ index.html:
 * Mobile: 94/100
 * Desktop: 95/100
 
-## Changelog:  ##
+## Changelog:
 
 * Optimized images
 * refactored /views/js/main.js:
@@ -16,6 +16,6 @@ index.html:
 * Refactored /views/css/style.css:
   * added img {will-change: transform} to allow layering of redrawn elements
 
-# To run:#
+# To run:
 
 Download all files in this repo to you computer, and navigate to index.html
