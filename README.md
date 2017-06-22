@@ -1,5 +1,15 @@
 ## Website Performance Optimization portfolio project
 
+## Changelog:  ##
+
+*Optimized images
+*refactored /views/js/main.js:
+** Line 516: moved document query out of for loop, no forced reflow
+** Line 538: changed the cols and s values to 12 and 512 respectively
+** changePizzaSizes(size) function refactored to use % and not query the document inside the for loop
+* Refactored /views/css/style.css:
+** added img {will-change: transform} to allow layering of redrawn elements
+
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 To get started, check out the repository and inspect the code.
