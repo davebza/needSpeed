@@ -1,5 +1,11 @@
 ## Website Performance Optimization portfolio project
 
+PageSpeed Insights:
+
+index.html:
+* Mobile: 94/100
+* Desktop: 95/100
+
 ## Changelog:  ##
 
 * Optimized images
