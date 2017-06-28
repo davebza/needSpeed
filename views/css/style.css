@@ -33,6 +33,7 @@ form {
   position: fixed;
   width: 256px;
   z-index: -1;
+  /*Below is for performance gains:*/
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
