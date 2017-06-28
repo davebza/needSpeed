@@ -1,16 +1,31 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Gist
+ @davebza
+ Sign out
+ Unwatch 1
+  Star 0
+  Fork 0 davebza/needSpeed
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Settings Insights
+Branch: master Find file Copy pathneedSpeed/views/js/main.js
+963bc76  6 days ago
+@davebza davebza Feat: refactored updatePositions() to avoid forced reflow
+1 contributor
+RawBlameHistory
+553 lines (498 sloc)  23.5 KB
 /*
 Welcome to the 60fps project! Your goal is to make Cam's Pizzeria website run
 jank-free at 60 frames per second.
-
 There are two major issues in this code that lead to sub-60fps performance. Can
 you spot and fix both?
-
-
 Built into the code, you'll find a few instances of the User Timing API
 (window.performance), which will be console.log()ing frame rate data into the
 browser console. To learn more about User Timing API, check out:
 http://www.html5rocks.com/en/tutorials/webperformance/usertiming/
-
 Creator:
 Cameron Pittman, Udacity Course Developer
 cameron *at* udacity *dot* com
@@ -550,3 +565,5 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   updatePositions();
 });
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
