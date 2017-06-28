@@ -1,22 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Gist
- @davebza
- Sign out
- Unwatch 1
-  Star 0
-  Fork 0 davebza/needSpeed
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Settings Insights
-Branch: master Find file Copy pathneedSpeed/views/js/main.js
-963bc76  6 days ago
-@davebza davebza Feat: refactored updatePositions() to avoid forced reflow
-1 contributor
-RawBlameHistory
-553 lines (498 sloc)  23.5 KB
 /*
 Welcome to the 60fps project! Your goal is to make Cam's Pizzeria website run
 jank-free at 60 frames per second.
